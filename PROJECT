@@ -1,0 +1,11 @@
+domain: dpu.sh
+layout: go.kubebuilder.io/v2
+projectName: taskwarrior-operator
+repo: github.com/digital-plumbers-union/taskwarrior-operator
+resources:
+- group: task
+  kind: Taskwarrior
+  version: v1alpha1
+version: 3-alpha
+plugins:
+  go.sdk.operatorframework.io/v2-alpha: {}

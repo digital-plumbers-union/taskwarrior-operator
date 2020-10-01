@@ -1,0 +1,24 @@
+# permissions for end users to edit taskwarriors.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: taskwarrior-editor-role
+rules:
+- apiGroups:
+  - task.dpu.sh
+  resources:
+  - taskwarriors
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - task.dpu.sh
+  resources:
+  - taskwarriors/status
+  verbs:
+  - get

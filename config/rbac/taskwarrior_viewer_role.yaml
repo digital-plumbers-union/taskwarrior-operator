@@ -1,0 +1,20 @@
+# permissions for end users to view taskwarriors.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: taskwarrior-viewer-role
+rules:
+- apiGroups:
+  - task.dpu.sh
+  resources:
+  - taskwarriors
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - task.dpu.sh
+  resources:
+  - taskwarriors/status
+  verbs:
+  - get

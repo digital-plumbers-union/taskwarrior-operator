@@ -1,0 +1,7 @@
+apiVersion: task.dpu.sh/v1alpha1
+kind: Taskwarrior
+metadata:
+  name: taskwarrior-sample
+spec:
+  # Add fields here
+  size: 3
