@@ -1,5 +1,7 @@
 # Quick reference
 
+![Docker Build Status](https://img.shields.io/docker/cloud/build/dpush/taskwarrior-server)
+
 - Maintained by [Digital Plumbers Union]
 - [Open Issues]
 
