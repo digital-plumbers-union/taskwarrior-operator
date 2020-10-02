@@ -1,0 +1,17 @@
+confirmation=1
+extensions=/usr/libexec/taskd
+ip.log=on
+log=/dev/stdout
+pid.file=/run/taskd.pid
+queue.size=10
+request.limit=1048576
+root=/var/lib/taskd/data
+server=0.0.0.0:53589
+trust=strict
+verbose=1
+client.cert=/var/lib/taskd/certs/client.cert.pem
+client.key=/var/lib/taskd/certs/client.key.pem
+server.cert=/var/lib/taskd/certs/server.cert.pem
+server.key=/var/lib/taskd/certs/server.key.pem
+server.crl=/var/lib/taskd/certs/server.crl.pem
+ca.cert=/var/lib/taskd/certs/ca.cert.pem
