@@ -124,7 +124,7 @@ func (r *TaskwarriorReconciler) deploymentForTaskwarrior(t *taskv1alpha1.Taskwar
 				Spec: corev1.PodSpec{
 					Containers: []corev1.Container{
 						{
-							Image:   "djmitche/freecinc-taskd:9f05c1b", // TODO: Put real image name here
+							Image:   "dpush/taskwarrior-server:edge",
 							Name:    "taskd",
 							Command: []string{"taskd", "--help"},
 							Ports: []corev1.ContainerPort{{
