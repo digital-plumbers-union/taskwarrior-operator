@@ -1,6 +1,7 @@
 # Quick reference
 
 ![Docker Build Status](https://img.shields.io/docker/cloud/build/dpush/taskwarrior-server)
+![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/dpush/taskwarrior-server?sort=semver)
 
 - Maintained by [Digital Plumbers Union]
 - [Open Issues]
